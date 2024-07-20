@@ -25,7 +25,7 @@ export const PLASMIC = initPlasmicLoader({
 // http://localhost:3000/plasmic-host).  See
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
 
-import testComp from "./components/testComp";
+import testComp from "./testComp";
 
 PLASMIC.registerComponent(testComp ,{
   name: "testComp",
