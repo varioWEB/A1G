@@ -1,4 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
+import React from "react";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -26,11 +27,7 @@ export const PLASMIC = initPlasmicLoader({
 
 function testComp(props?: {text?: string})
 {
-  return
-    <div>
-      {text}
-    </div>
-  ;
+  return(<div>{text}</div>);
 }
 
 PLASMIC.registerComponent(testComp ,{
