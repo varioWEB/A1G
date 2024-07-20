@@ -25,14 +25,14 @@ export const PLASMIC = initPlasmicLoader({
 // http://localhost:3000/plasmic-host).  See
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
 
-default function testComp(props?: {text?: string})
+default function testComp()
 {
-  return( <div> {text} </div> );
+  return( <></>);
 }
 
 PLASMIC.registerComponent(testComp ,{
   name: "testComp",
   props: {
-    text: "string"
+    
   }
 });
