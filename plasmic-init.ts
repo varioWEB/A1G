@@ -26,6 +26,7 @@ export const PLASMIC = initPlasmicLoader({
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
 
 import testComp from "./testComp";
+import compTest from "./compTest";
 
 PLASMIC.registerComponent(testComp ,{
   name: "testComp",
@@ -34,8 +35,9 @@ PLASMIC.registerComponent(testComp ,{
   }
 });
 
-import compTest from "./components/compTest";
-
 PLASMIC.registerComponent(compTest ,{
-  name: "rive"
+  name: "rive",
+  props: {
+    text: "string"
+  }
 });
