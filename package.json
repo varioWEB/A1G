@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.396",
+    "@rive-app/react-canvas": "^4.16.1",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"

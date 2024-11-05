@@ -33,3 +33,9 @@ PLASMIC.registerComponent(testComp ,{
     text: "string"
   }
 });
+
+import compTest from "./components/compTest";
+
+PLASMIC.registerComponent(compTest ,{
+  name: "rive"
+});
