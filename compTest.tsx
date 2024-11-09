@@ -3,7 +3,7 @@ import Rive from '@rive-app/react-canvas';
 function compTest(props?: {text?: string}){
   return(
     <Rive
-    src="https://drive.google.com/file/d/1_WX49WXkgLeMeMLHCEFT-T-rMe8Vcg4P/view?usp=sharing"
+    src="blob:https://editor.rive.app/73d46d30-c053-42dd-b3ea-9228955e0dbc"
     stateMachines={props?.text}
   />
   );
