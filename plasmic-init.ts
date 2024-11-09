@@ -31,7 +31,10 @@ import compTest from "./compTest";
 PLASMIC.registerComponent(testComp ,{
   name: "testComp",
   props: {
-    text: "string"
+    text: "string",
+    other: {
+      type: "dataSelector"
+    }
   }
 });
 
