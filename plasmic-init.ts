@@ -39,7 +39,8 @@ PLASMIC.registerComponent(compTest ,{
   name: "rive",
   props: {
     text: {
-      type: "string"
+      type: "string",
+      defaultValue: "bumpy"
     },
   }
 });
