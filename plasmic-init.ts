@@ -39,7 +39,7 @@ PLASMIC.registerComponent(compTest ,{
   name: "rive",
   props: {
     text: {
-      type: "dataSelector"
+      type: "string"
     },
   }
 });
