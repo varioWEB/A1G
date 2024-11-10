@@ -3,7 +3,7 @@ import Rive from '@rive-app/react-canvas';
 function compTest(props?: {text?: string}){
   return(
     <Rive
-    src="./assets/vehicles.riv"
+    src="vehicles.riv"
     stateMachines={props?.text}
   />
   );
