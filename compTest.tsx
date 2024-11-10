@@ -1,9 +1,9 @@
 import Rive from '@rive-app/react-canvas';
 
-function compTest(props?: {text?: string}){
+function compTest(props?: {text?: string, rivefile?: string}){
   return(
     <Rive
-    src="vehicles.riv"
+    src={props?.rivefile}
     stateMachines={props?.text}
   />
   );
