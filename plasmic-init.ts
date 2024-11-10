@@ -42,5 +42,9 @@ PLASMIC.registerComponent(compTest ,{
       type: "string",
       defaultValue: "bumpy"
     },
+    theRiveF: {
+      type: "string",
+      displayName: "rive file"
+    }
   }
 });
